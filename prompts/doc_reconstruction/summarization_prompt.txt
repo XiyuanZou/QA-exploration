@@ -1,0 +1,5 @@
+You are given a document. Your task is to write a detailed and informative summary that accurately reflects the document's key ideas, supporting points, and important details. Do not introduce any content not present in the original document.
+
+Document: {document}
+
+Summary:

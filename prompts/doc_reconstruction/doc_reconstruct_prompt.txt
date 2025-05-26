@@ -1,0 +1,6 @@
+You are given the following text. Your job is to paraphrase them into a fluent and well-structured article. Improve the clarity, coherence, and flow of the writing, but do not add, invent, or infer any information that is not already present in the original text. Your output should preserve all factual content exactly as given while enhancing readability and style.
+
+Text: {state}
+
+Paraphrased Article:
+

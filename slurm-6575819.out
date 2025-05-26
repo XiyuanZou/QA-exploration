@@ -1,0 +1,59 @@
+
+======== GPU REPORT ========
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Sun Apr 13 00:40:04 2025
+Driver Version                            : 560.35.03
+CUDA Version                              : 12.6
+
+Attached GPUs                             : 1
+GPU 00000000:81:00.0
+    Accounting Mode                       : Enabled
+    Accounting Mode Buffer Size           : 4000
+    Accounted Processes
+        Process ID                        : 2760981
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 1610 MiB
+            Time                          : 237077 ms
+            Is Running                    : 0
+        Process ID                        : 2765462
+            GPU Utilization               : 0 %
+            Memory Utilization            : 0 %
+            Max memory usage              : 73182 MiB
+            Time                          : 1678192 ms
+            Is Running                    : 0
+        Process ID                        : 2773248
+            GPU Utilization               : 36 %
+            Memory Utilization            : 9 %
+            Max memory usage              : 80684 MiB
+            Time                          : 277851 ms
+            Is Running                    : 0
+        Process ID                        : 2775640
+            GPU Utilization               : 31 %
+            Memory Utilization            : 7 %
+            Max memory usage              : 80704 MiB
+            Time                          : 321587 ms
+            Is Running                    : 0
+
+Sun Apr 13 00:40:04 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.35.03              Driver Version: 560.35.03      CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:81:00.0 Off |                    0 |
+| N/A   29C    P0             64W /  500W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+

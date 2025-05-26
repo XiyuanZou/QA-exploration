@@ -1,0 +1,23 @@
+You are given some known content from a document. Your task is to ask one exploring question to an oracle, who can access the full document. The goal is to recover the unknown parts of the document by asking questions that gradually reveal its full content.
+
+You are also given the history of past QA interactions. Some questions were helpful and received informative answers, while others were unanswerable, indicating that they were not relevant to the document.
+
+Your question should be designed with the following principles:
+
+1. Exploratory: It should seek information not present in the known content, aiming to reveal new parts of the document.
+
+2. Grounded: It should be clearly anchored in the known content, maintaining topical and contextual coherence.
+
+3. Expansive: It should encourage answers that elaborate on events, explanations, relationships, or developments relevant to the document’s broader structure.
+
+4. Non-redundant: Do not repeat or closely paraphrase any previous questions in QA history.
+
+5. Error-aware: Avoid unproductive directions from past unanswerable questions. Build on what has been successfully revealed.
+
+Past QAs: {qa_history}
+
+Known content: {state}
+
+Now ask your question. Make sure it is a single, standalone question — not a compounded one.
+
+Question: 

@@ -1,0 +1,10 @@
+You are given a passage of text. Your task is to generate a insightful and relevant question based on the content. Your question should be exploratory, seeking information not present in the given content.
+
+Here is an example: 
+Text: Airg\u00edalla was a medieval Irish over-kingdom and the collective name for the confederation of tribes that formed it. The confederation consisted of nine minor kingdoms, all independent of each other but paying nominal suzerainty to an overking, usually from the most powerful dynasty. Airg\u00edalla at its peak roughly matched the modern dioceses of Armagh and Clogher, spanning parts of counties Armagh, Monaghan, Louth, Fermanagh, Tyrone and Londonderry.
+Question: What were the key tribes or clans that formed the Airg\u00edalla confederation, and what were their respective roles or relationships within the over-kingdom
+
+Now generate an exploratory question for the following text.
+
+Text: {state}
+Question: 

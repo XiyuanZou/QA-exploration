@@ -1,0 +1,8 @@
+pip install torch torchvision torchaudio
+pip install scikit-learn pandas matplotlib hydra-core spacy
+pip install transformers==4.49.0 datasets sentencepiece 
+pip install accelerate bitsandbytes
+pip install trl peft wandb
+pip install openai
+pip install jieba fuzzywuzzy rouge
+pip install jsonlines udapi nltk
